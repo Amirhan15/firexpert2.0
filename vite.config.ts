@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: './index.html',
-      external: ['/src/main.jsx'] // Добавляем сюда путь
+      external: ['/src/main.jsx'] 
     }
   }
 })
